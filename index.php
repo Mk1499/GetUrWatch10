@@ -1,7 +1,7 @@
 <!DOCTYBE html> 
 <html>
     <head>
-        <title>STS Task 1</title>
+        <title>Get Ur Watch</title>
         <link rel="stylesheet" href="css/bootstrap.min.css"> 
         <link rel="stylesheet" href="css/hover.css" > 
         <link rel="stylesheet" href="css/animate.css"> 
