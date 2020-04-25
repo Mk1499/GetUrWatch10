@@ -1,301 +1,319 @@
-*{
-    transition: 0.5s
+* {
+  transition: 0.5s;
 }
-body{
-    background-color: aliceblue
+body {
+  background-color: aliceblue;
 }
-ul{
-    padding-left: 0
+ul {
+  padding-left: 0;
 }
 section {
- padding-top: 2% ; 
-    padding-bottom: 2%;
-    background-color: #fff
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #fff;
 }
-.banner{
-    background: url("../images/wallpapersden.com_shahrukh-khan-new-look-photos_1920x1080.jpg") no-repeat ; 
-    background-size: cover ; 
-    color: #fff ; 
-    padding: 0
-}
-
-nav{
-    background-color: transparent !important ; 
-    border-color: transparent !important
-}
-ul.nav.navbar-nav.navbar-right li a {
-    color: #fff ;
-    
-}
-ul.nav.navbar-nav.navbar-right li a:hover{
-    background-color: darkturquoise ;
-    border-color : darkturquoise
+.banner {
+  background: url("../images/wallpapersden.com_shahrukh-khan-new-look-photos_1920x1080.jpg")
+    no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 0;
 }
 
-ul.nav.navbar-nav.navbar-right li button{
-    background-color: darkturquoise ;
-    border-color : darkturquoise ; 
-    padding: 20px 40px 20px 40px;
-    border-radius: 50px 
+.menu {
+  background-color: transparent;
+  border-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
-ul.nav.navbar-nav.navbar-right li button:hover , .app button:hover{
-    background-color: #282828 ;
-    border-color : #282828 ;
+.bannerCont {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+ul.nav.navbar-nav.navbar-left li a {
+  color: #fff;
+  cursor: pointer;
+  border:  0px solid darkturquoise; 
+  transition: 0s;
+}
+ul.nav.navbar-nav.navbar-left li a:hover {
+  /* background-color: darkturquoise; */
+  border-bottom-width: 3px;
 }
 
-/*banner paragraph */ 
+ul.nav.navbar-nav.navbar-right li button {
+  background-color: darkturquoise;
+  border-color: darkturquoise;
+  padding: 20px 40px 20px 40px;
+  border-radius: 50px;
+}
+ul.nav.navbar-nav.navbar-right li button:hover,
+.app button:hover {
+  background-color: #282828;
+  border-color: #282828;
+}
+
+/*banner paragraph */
 .banner .banner-content {
-margin-top: 80px
+  margin-top: 80px;
 }
-.banner .banner-content button , .app button{
-    background-color: transparent ; 
-    border: 3px solid #fff ;
-    padding: 20px 40px 20px 40px;
-    border-radius: 50px 
+.banner .banner-content button,
+.app button {
+  background-color: transparent;
+  border: 3px solid #fff;
+  padding: 20px 40px 20px 40px;
+  border-radius: 50px;
 }
 .banner .banner-content button:hover {
-   background-color: darkturquoise
+  background-color: darkturquoise;
 }
-/* end banner paragraph */ 
+/* end banner paragraph */
 
-/* starting about the product class */ 
+/* starting about the product class */
 
 .about {
-    padding: 100px
+  padding: 100px;
 }
 .about-list {
-    margin: 20px
+  margin: 20px;
 }
-.about-list li{
-    list-style-type: none;
-    margin-bottom: 5%
+.about-list li {
+  list-style-type: none;
+  margin-bottom: 5%;
 }
-.about-list li:before{
-    content: "\f00c" ; 
-    font-family: "fontawesome" ; 
-    padding: 5px ; 
-    border: 1px solid darkturquoise ; 
-    color: darkturquoise ; 
-    margin: 5px;
-    border-radius: 50%
+.about-list li:before {
+  content: "\f00c";
+  font-family: "fontawesome";
+  padding: 5px;
+  border: 1px solid darkturquoise;
+  color: darkturquoise;
+  margin: 5px;
+  border-radius: 50%;
 }
-.carousel-indicators li{
-    border-color: darkturquoise ;
-    background-color: darkturquoise ; 
-    opacity: 0.5
+.carousel-indicators li {
+  border-color: darkturquoise;
+  background-color: darkturquoise;
+  opacity: 0.5;
 }
-.carousel-indicators li.active{
-    opacity: 1 ;
-     background-color: darkturquoise ; 
+.carousel-indicators li.active {
+  opacity: 1;
+  background-color: darkturquoise;
 }
-/*start featured section */ 
+/*start featured section */
 
 .features {
-    background: url("../images/Hrithik-Roshan-Photoshoot-WallpapersByte-com-2880x1800.jpg")  no-repeat fixed ;
-    background-size: cover ;
-    color: #fff; 
-    padding: 0
+  background: url("../images/Hrithik-Roshan-Photoshoot-WallpapersByte-com-2880x1800.jpg")
+    no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 0;
 }
-.features-opacity{
-   /* height: 100% ; */ 
-    width: 100% ; 
-    background-color: rgba(0,0,0,0.5) ;
-    
+.features-opacity {
+  /* height: 100% ; */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-.features-header{
-    
+.features-header {
 }
-.feauture-line{
-    width: 7%;
-    height: 5px ; 
-    border: 1px solid darkturquoise;  
-    background: darkturquoise;
-    border-radius: 3px
+.feauture-line {
+  width: 7%;
+  height: 5px;
+  border: 1px solid darkturquoise;
+  background: darkturquoise;
+  border-radius: 3px;
 }
-.feature-div-container{
-    margin-left:0   ;
+.feature-div-container {
+  margin-left: 0;
 }
-.feature-div{
-    background: #fff ;
-    color: #282828 ;
-    margin: 4%;
-    padding-top: 1.5%
+.feature-div {
+  background: #fff;
+  color: #282828;
+  margin: 4%;
+  padding-top: 3vh;
+  padding-bottom: 1.5%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
 }
-.div-cir{
-background: darkturquoise;
-color: #fff;
-border-radius: 50%;
-position: absolute;
-top: -20%;
-width: 10%;
-text-align: center;
-margin-left: 38%;    
+.div-cir {
+  background: darkturquoise;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -3vh;
+  width: 4rem;
+  text-align: center;
+  margin-left: 6.5vw;
+  box-shadow: 5px 5px 5px grey;
 }
-.div-cir i{
-    margin: 30%
+.div-cir i {
+  margin: 30%;
 }
 
-/*start f 2 */ 
+/*start f 2 */
 
-.feature2-div-container{
-    margin-top: 5%
+.feature2-div-container {
+  margin-top: 5%;
 }
 .feature2-div-container i {
-    color: darkturquoise;
+  color: darkturquoise;
 }
 
-/* start Message section */ 
-.message .content{
+/* start Message section */
+.message .content {
+}
+.message button {
+  background-color: darkturquoise;
+  border-color: darkturquoise;
+  padding: 3% 3% 3% 3%;
+  border-radius: 50px;
+}
+img {
+  max-width: 100%;
+}
 
-}
-.message button { 
-background-color: darkturquoise ;
-    border-color : darkturquoise ; 
-    padding: 3% 3% 3% 3%;
-    border-radius: 50px 
-}
-img{
-    max-width: 100%
-} 
+/*START section Products */
 
-/*START section Products */ 
-
-.products{
-    background-color: transparent ; 
-   
+.products {
+  background-color: transparent;
 }
-.products .carousel-indicators{
-    bottom: -12% ;
-    left: 41%
+.products .carousel-indicators {
+  bottom: -12%;
+  left: 41%;
 }
-.products .prod{
- border-radius: 20px ; 
-    background: #fff; 
-    margin-bottom: 5% ;
+.products .prod {
+  border-radius: 20px;
+  background: #fff;
+  margin-bottom: 5%;
   margin: 1%;
-    overflow: hidden ; 
-    padding-bottom: 1%
+  overflow: hidden;
+  padding-bottom: 1%;
 }
-.products .prod button{
-    background-color: darkturquoise ;
-    border-color : darkturquoise ; 
-    padding: 3% 3% 3% 3%;
-    border-radius: 20px 
+.products .prod button {
+  background-color: darkturquoise;
+  border-color: darkturquoise;
+  padding: 3% 3% 3% 3%;
+  border-radius: 20px;
 }
-.products .prod button:hover{
-  background-color: #282828  
-}
-  
-.prod-name{
-    padding: 10px ; 
-    border-bottom: 1px solid #eee ; 
-    background-color: #fff ; 
-    font-weight: bold ; 
-    font-size: 20px
-}
-.prod-carousal{
-margin-left: 18%
+.products .prod button:hover {
+  background-color: #282828;
 }
 
-/* start customer section */ 
-.Customer .row{
-    margin-left: 10%
+.prod-name {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 20px;
 }
-.Customer h4{
-    font-weight: bold
-}
-.Customer .say{
-    margin: 2% ; 
-    padding: 0 1% 1% 5%;
-    background-color: #eee  ; 
-    border-radius: 5%
-}
-.Customer .job{
-    color: darkturquoise;
-}
-.Customer img{
-    float: right ; 
-    width: 100px; 
-    height: 100px;
-    border-radius: 50%
+.prod-carousal {
+  margin-left: 18%;
 }
 
-/* strat app */ 
-.app{
-    background-color: darkturquoise ; 
-    color: #fff
+/* start customer section */
+.Customer .row {
+  margin-left: 10%;
 }
- .app hr {
-    width: 20%;
-    height: 3px ; 
-    border: 1px solid #fff;  
-    background: #FFF;
-    border-radius: 3px ; 
-     float: left
+.Customer h4 {
+  font-weight: bold;
 }
-.app .features-header{
-    margin-bottom: 10%
+.Customer .say {
+  margin: 2%;
+  padding: 0 1% 1% 5%;
+  background-color: #eee;
+  border-radius: 5%;
+}
+.Customer .job {
+  color: darkturquoise;
+}
+.Customer img {
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
-/* start brands */ 
+/* strat app */
+.app {
+  background-color: darkturquoise;
+  color: #fff;
+}
+.app hr {
+  width: 20%;
+  height: 3px;
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 3px;
+  float: left;
+}
+.app .features-header {
+  margin-bottom: 10%;
+}
+
+/* start brands */
 
 .brands {
-    background-color: transparent ;
-    margin: 2%
+  background-color: transparent;
+  margin: 2%;
 }
 .brands li {
-    margin-left:3%; 
-    float: left ; 
-    list-style-type: none ; 
-    width: 20%
+  margin-left: 3%;
+  float: left;
+  list-style-type: none;
+  width: 20%;
 }
 
-/* start footer */ 
+/* start footer */
 
-footer{
-    background-color: #282828 ; 
-    color: aliceblue ; 
-    padding-bottom: 2%
+footer {
+  background-color: #282828;
+  color: aliceblue;
+  padding-bottom: 2%;
 }
-footer hr.feauture-line{
-    width: 20%;
-    height: 3px ; 
-    border: 1px solid darkturquoise;  
-    border-radius: 3px ; 
-     float: left
+footer hr.feauture-line {
+  width: 20%;
+  height: 3px;
+  border: 1px solid darkturquoise;
+  border-radius: 3px;
+  float: left;
 }
-footer ul.social li{
-      float: left ; 
-    list-style-type: none ;  
-    margin-left: 5% ;
-    padding: 2%;
-    background-color: #333 ; 
-    border-radius: 50%
+footer ul.social li {
+  float: left;
+  list-style-type: none;
+  margin-left: 5%;
+  padding: 2%;
+  background-color: #333;
+  border-radius: 50%;
 }
-footer li a{
-    color: #fff
+footer li a {
+  color: #fff;
 }
-.footer-bottom{
-    background: #282828 ; 
-    color: #fff ; 
-    padding-left: 5% ;
-    border-top: 1px solid #999
+.footer-bottom .col-xs-6 {
+  background: #282828;
+  color: #fff;
+  padding-left: 5%;
+  border-top: 1px solid #999;
+  height: 7vh;
 }
 
 .footer-bottom li {
-   float: left ; 
-    list-style-type: none ;  
-    margin-left: 5% ;
-    padding: 2%
+  float: left;
+  list-style-type: none;
+  margin-left: 5%;
+  padding: 2%;
 }
-.footer-bottom li a{
-    color: #fff
+.footer-bottom li a {
+  color: #fff;
 }
-footer .features-header{
-    margin-bottom: 10%
+footer .features-header {
+  margin-bottom: 10%;
 }
- .footer-bottom {
-     border-top: 1px solid #eee ;}
-.copy{
-    padding-top: 1%
+.footer-bottom {
+  border-top: 1px solid #eee;
+}
+.copy {
+  padding-top: 1%;
+  height: 100%;
 }
