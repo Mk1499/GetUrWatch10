@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   
-
+    <link rel="icon" href="images/Mi-Band-2-.png" type="image/png" sizes="16x16">
 
   </head>
 
@@ -86,9 +86,7 @@
               print, and publishing industries for previewing layouts and visual
               mockups. Lorem Ipsum is placeholder text commonly used in the
               graphic, print, and publishing industries for previewing layouts
-              and visual mockups. Lorem Ipsum is placeholder text commonly used
-              in the graphic, print, and publishing industries for previewing
-              layouts and visual mockups.
+         
             </p>
             <ul class="about-list">
               <li>Compatable With All Devices</li>
@@ -226,10 +224,8 @@
           <div class="col-sm-6 content">
             <h1>Instant Message</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
+                Lorem Ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing
             </p>
 
             <button class="btn btn-primary">
@@ -247,10 +243,8 @@
           <div class="col-sm-6 content">
             <h1>Instant Message</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
+                Lorem Ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing
             </p>
 
             <button class="btn btn-primary">
@@ -378,8 +372,6 @@
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
             </p>
             <p class="job">Web Designer</p>
             <img src="images/Katrina_Kaif.jpeg" />
@@ -387,10 +379,8 @@
           <div class="col-xs-3 say">
             <h4>Tamanna</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
             </p>
             <p class="job">Web Designer</p>
             <img
@@ -400,10 +390,8 @@
           <div class="col-xs-3 say">
             <h4>Kareena</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             </p>
             <p class="job">Web Designer</p>
             <img src="images/images.jpg" />
@@ -422,10 +410,8 @@
               <hr />
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             </p>
           <img src="images/allStore.png" class="storeLogo" />
 
@@ -465,16 +451,16 @@
             </div>
             <ul class="social">
               <li>
-                <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                <a href="https://www.facebook.com/mohamed.khaled.114"><i class="fa fa-facebook fa-2x"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+                <a href="https://github.com/Mk1499"><i class="fa fa-github fa-2x"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                <a href="https://www.behance.net/mohamedkhaled72"><i class="fa fa-behance fa-2x"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/mk1499/"><i class="fa fa-linkedin fa-2x"></i></a>
               </li>
             </ul>
           </div>
